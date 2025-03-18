@@ -6,21 +6,34 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
+    <!--Navbar-->
         <nav>
-            <div class = "navbar">
-                <a href ="#" class="logo">Sonia Gupta</a>
-                <div class="links">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
+            <div class = "navbar-container">
+                <span class="navbar-name">Sonia Gupta</span>
+                <ul class="navbar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
             </div>
         </nav>
-    </header>
 
-    <h1>Welcome to my website!</h1>
-    
-    <script src="javascript.js"></script>
+    <!--Main container for page-->
+    <table class="content-table">
+        <tr>
+            <td class="left-column">
+                <h2>Header</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium suscipit blanditiis asperiores temporibus expedita est vero! Hic atque cupiditate molestias? Ipsa, maiores error eaque necessitatibus quaerat culpa consequatur non illo?</p>
+            </td>
+            <td class="right-image">
+                <img src="https://images.unsplash.com/photo-1565945887714-d5139f4eb0ce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c21pbGV5fGVufDB8fDB8fHww" alt="Smiley face" width = "200">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="quote">
+                <p>"Believe in yourself"</p>
+            </td>
+        </tr>
+    </table>   
 </body>
 </html>
