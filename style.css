@@ -9,119 +9,123 @@ body {
 
 /* Navbar Styling*/
 nav {
-    background-color: black;
-    padding: 10px;
+  background-color: black;
+  padding: 10px;
 }
 
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-name {
-    font-weight: bold;
-    color: white;
-    font-size: 24px;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
 }
 
 .navbar-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .navbar-links li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 /*Content Table Styling*/
 .content-table {
-    width: 90%;
-    margin: 40px auto;
-    border-collapse: collapse;
-    background-color: pink;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content-table tr {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .content-table td {
-    padding: 20px;
-    text-align: left;
-    flex: 1;
+  padding: 20px;
+  text-align: left;
+  flex: 1;
 }
 
 .left-text {
-    text-align: left;
-    padding-right: 20px;
-    width: 50%;
-    font-size: 25px;
-    word-wrap: break-word;
-    margin: 0;
+  text-align: left;
+  padding-right: 20px;
+  width: 50%;
+  font-size: 25px;
+  word-wrap: break-word;
+  margin: 0;
+}
+.left-text h2 {
+  text-shadow: 1px 1px 1px black;
 }
 
 .right-image img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .quote {
-    text-align: center;
-    font-style: italic;
-    padding-top: 20px;
-    width: 100%;
+  text-align: center;
+  font-style: italic;
+  padding-top: 20px;
+  width: 100%;
 }
 
 /*About Page Styling*/
 .about-container {
-    text-align: center;
-    margin: 50px auto;
-    width: 80%;
+  text-align: center;
+  margin: 50px auto;
+  width: 80%;
 }
 
 .about-header {
-    font-size: 2rem;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 40px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 1px black;
 }
 
 /*About Section Styling*/
 .about-section {
-    background-color: pink;
-    color: purple;
-    margin-bottom: 30px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: pink;
+  color: purple;
+  margin-bottom: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .section-header {
-    font-size: 2rem;
-    font-weight: bold;
-    color: magenta;
-    text-align: left;
-    width: 30%;
+  font-size: 2rem;
+  font-weight: bold;
+  color: magenta;
+  text-align: left;
+  width: 30%;
 }
 
 .section-text {
-    font-size: 1rem;
-    text-align: left;
-    width: 75%;
-    margin-left: 80px;
+  font-size: 1rem;
+  text-align: left;
+  width: 75%;
+  margin-left: 80px;
 }
 
 .section-image img {
-    width: 60%;
-    height: auto;
-    margin-left: 60px;
-    margin-right: 0;
+  width: 60%;
+  height: auto;
+  margin-left: 60px;
+  margin-right: 0;
 }
