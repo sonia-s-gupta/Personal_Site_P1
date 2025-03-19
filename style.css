@@ -4,6 +4,7 @@ body {
   padding: 0;
   background-color: magenta;
   color: white;
+  font-size: 16px;
 }
 
 /* Navbar Styling*/
@@ -76,4 +77,51 @@ nav {
     font-style: italic;
     padding-top: 20px;
     width: 100%;
+}
+
+/*About Page Styling*/
+.about-container {
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+}
+
+.about-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/*About Section Styling*/
+.about-section {
+    background-color: pink;
+    color: purple;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: magenta;
+    text-align: left;
+    width: 30%;
+}
+
+.section-text {
+    font-size: 1rem;
+    text-align: left;
+    width: 75%;
+    margin-left: 80px;
+}
+
+.section-image img {
+    width: 60%;
+    height: auto;
+    margin-left: 60px;
+    margin-right: 0;
 }
