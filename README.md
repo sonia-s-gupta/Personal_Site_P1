@@ -6,7 +6,9 @@ Personal site with home page, about page, and portfolio page
 -**Home Page**: Intro and nav bar for Home, About, and Portfolio
 -**About Page**: Interests (pickleball and piano)
 -**Portfolio Page**: Projects I have worked on
--**JavaScript**: Shows "Hello World" in console
+-**Contact Page**: Submission form
+-**Success Page**: Clicking "submit" on contact page directs here, displays success message
+-**JavaScript**: Shows "Hello World" in console, redirects to success page after submission
 
 ## Files Used
 
