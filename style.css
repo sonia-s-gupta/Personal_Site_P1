@@ -9,7 +9,7 @@ body {
 
 /* Navbar Styling*/
 nav {
-  background-color: black;
+  background: linear-gradient(90deg, #4b0082, #b94eb0);
   padding: 10px;
 }
 
@@ -17,6 +17,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative; 
+  z-index: 10;
 }
 
 .navbar-name {
@@ -34,6 +36,16 @@ nav {
 
 .navbar-links li {
   margin-left: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25em;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
 }
 
 /*Content Table Styling*/
@@ -82,7 +94,7 @@ nav {
   width: 100%;
 }
 
-/*About Page Styling*/
+/*About Page and Portfolio Page Styling*/
 .about-container {
   text-align: center;
   margin: 50px auto;
@@ -97,7 +109,7 @@ nav {
   text-shadow: 1px 1px 1px black;
 }
 
-/*About Section Styling*/
+/*About Section and Portfolio Section Styling*/
 .about-section {
   background-color: pink;
   color: purple;
@@ -106,6 +118,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.about-container .about-section:nth-child(3) {
+  background-color: lavender;
 }
 
 .section-header {
